@@ -26,6 +26,7 @@ print(106 % 3)
 print(106 // 3)  # purno vag fol
 
 
+# loop
 for i in range(1, 10, 2):
     print(i, end=" ")
 
@@ -35,3 +36,23 @@ num = [1, 2, 3, 4, 5]
 
 for idx, element in enumerate(num):
     print(idx, element)
+
+
+#  function
+def sum_of_number(num1, num2, num3=0, *num4):
+    sum = num1 + num2 + num3
+    for n in num4:
+        sum += n
+    return sum
+
+
+print(
+    sum_of_number(
+        1,
+        3,
+        4,
+        4,
+        8,
+        10,
+    )
+)
