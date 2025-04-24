@@ -9,6 +9,6 @@
   "isort.args": ["--profile", "black"],
   "code-runner.executorMap": {
     // "python": "cd $dir && timeout 15s python $fileName < input.txt > output.txt || (echo -n > output.txt && echo 'Time Limit Gone')"
-    "python": "python -u \"$fullFileName\" < \"$dir/input.txt\" > \"$dir/output.txt\""
+    // "python": "python -u \"$fullFileName\" < \"$dir/input.txt\" > \"$dir/output.txt\""
   }
 }
